@@ -1,5 +1,8 @@
 ## Open Korean Corpora: A Living Document for Korean NLP Dataset Curation
 
+
+![image](./Specially_Curated_For_You.png)
+
 ### Overview
 - Korean, a language with 80M users is often overlooked in NLP research
 - The availability of public datasets and tasks has hindered investigation
