@@ -10,6 +10,10 @@
 - Even the publicly available datasets are not always accompanied by English documentation and have poor discoverability
 - Our work attempts to tackle this problem by curating a living document of open resources for the Korean language
 
+### NLP-OSS @ EMNLP 2020
+
+We will be in the [live session](https://virtual.2020.emnlp.org/workshop_WS-9.html) and monitoring the [slide chat](https://emnlp2020.rocket.chat/channel/paper-nlposs-17) during EMNLP 2020. If you have any questions or would simply want to drop by to say hello, please drop by!
+
 ### Public Institutions
 Multiple government-funded institutions create datasets for the Korean language
 - National Institute of Korean Language (NIKL)
