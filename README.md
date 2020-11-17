@@ -82,3 +82,25 @@ The table below describes the open Korean corpora investigated so far. To be upd
 |31|[Pansori-TedXKR](https://github.com/yc9701/pansori-tedxkr-corpus)|ASR|Academia|inter|acad/rd / (mod-x)|3+ (h) / 3K (u)/ 41 speakers|-|ko|
 |32|[ProSem](https://github.com/warnikchow/prosem)|SLU|Academia|inter|com/rd|6+ (h) / 3,500 (s) / 7K (u) / 2 speakers|-|ko|
 
+### Citing
+
+To cite our work, please use the following: (Also available as `cho-etal-2020-open` in anthology.bib)
+
+    @inproceedings{cho-etal-2020-open,
+        title = "Open {K}orean Corpora: A Practical Report",
+        author = "Cho, Won Ik  and
+          Moon, Sangwhan  and
+          Song, Youngsook",
+        booktitle = "Proceedings of Second Workshop for NLP Open Source Software (NLP-OSS)",
+        month = nov,
+        year = "2020",
+        address = "Online",
+        publisher = "Association for Computational Linguistics",
+        url = "https://www.aclweb.org/anthology/2020.nlposs-1.12",
+        pages = "85--93",
+        abstract = "Korean is often referred to as a low-resource language in the research community. While this claim is partially true, it is also because the availability of resources is inadequately advertised and curated. This work curates and reviews a list of Korean corpora, first describing institution-level resource development, then further iterate through a list of current open datasets for different types of tasks. We then propose a direction on how open-source dataset construction and releases should be done for less-resourced languages to promote research.",
+    }
+
+### Contributing
+
+Please read the [contributor guidelines](CONTRIBUTING.md) before sending a pull request.
