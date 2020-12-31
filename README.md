@@ -51,7 +51,7 @@ The table below describes the open Korean corpora investigated so far. To be upd
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |1|[KAIST Morpho-Syntactically Annotated Corpus](http://semanticweb.kaist.ac.kr/home/index.php/KAIST_Corpus)|Morphological analysis|Academia|art|acad/no|70M (w)| - |ko|
 |2|[KAIST Korean Tree-Tagging Corpus](http://semanticweb.kaist.ac.kr/home/index.php/KAIST_Corpus)|Tree parsing|Academia|inter|acad/no|30K (s)|-|ko|
-|3|[UD Korean KAIST](https://github.com/emorynlp/ud-korean)|Dependency parsing|Academia|inter|acad/rd|27K (s)|-|ko|
+|3|[UD Korean KAIST](https://github.com/emorynlp/ud-korean)|Dependency parsing|Academia|inter|acad/no|27K (s)|-|ko|
 |4|[PKT-UD](https://github.com/emorynlp/ud-korean)|Dependency parsing |Academia|inter|acad/no|5K (s)|-|ko|
 |5|[KMOU NER](https://github.com/kmounlp/NER)| NER| Academia|art|acad/rd|24K (s)|-|ko|
 |6|[AIR x NAVER NER](http://air.changwon.ac.kr/?page_id=10)| NER |Competition|doc|acad/no|90K (s)|-|ko|
