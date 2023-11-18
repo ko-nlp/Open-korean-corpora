@@ -141,7 +141,7 @@ The table below describes the open Korean corpora investigated so far. To be upd
 | No | Dataset | Typical Usage | Provider | Docu. | License | Redist. | mod-x | Volume | Goal | Lang. |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | SL-1 | KSS | ASR | Academia | docu | academic | rd | 0 | 12+ (h) / 13K (u) / 1 speaker | - | ko |
-| SL-1 | Zeroth | ASR | Industry | docu | all | rd | 0 | 51+ (h) / 27K (s) / 46K (u) / 181 speakers | - | ko |
+| SL-2 | Zeroth | ASR | Industry | docu | all | rd | 0 | 51+ (h) / 27K (s) / 46K (u) / 181 speakers | - | ko |
 | SL-3 | ClovaCall | ASR | Industry | int'l | academic | no | 0 | 80+ (h) / 60K (u) / 11K speakers | - | ko |
 | SL-4 | Pansori-TedXKR | ASR | Academia | int'l | academic | rd | 1 | 3+ (h) / 3K (u) / 41 speakers | - | ko |
 | SL-5 | ProSem | SLU | Academia | int'l | all | rd | 0 | 6+ (h) / 3,500 (s) / 7K (u) / 2 speakers | - | ko |
