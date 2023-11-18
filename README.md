@@ -95,8 +95,8 @@ The table below describes the open Korean corpora investigated so far. To be upd
 | ISO-7 | HateScore | Hate speech detection | Academia | int'l | academic | rd | 1 | 35K | - | ko |
 | ISO-8 | KOLD | Hate speech detection | Academia | int'l | all | rd | 0 | 40K | - | ko |
 | ISO-9 | K-MHaS | Hate speech detection | Academia | int'l | all | rd | 0 | 109K | - | ko |
-| ISO-9 | KODOLI | Hate speech detection | Academia | int'l | all | rd | 0 | 38K | - | ko |
-| ISO-10 | DKTC | Hate speech detection | Industry | docu | academic | rd | 0 | 1.5K | - | ko |
+| ISO-10 | KODOLI | Hate speech detection | Academia | int'l | all | rd | 0 | 38K | - | ko |
+| ISO-11 | DKTC | Hate speech detection | Industry | docu | academic | rd | 0 | 1.5K | - | ko |
 
 
 5. QA and dialogue
