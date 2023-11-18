@@ -10,6 +10,10 @@
 - Even the publicly available datasets are not always accompanied by English documentation and have poor discoverability
 - Our work attempts to tackle this problem by curating a living document of open resources for the Korean language
 
+### PACLIC 2023
+
+We will participate in [PACLIC 37](https://paclic2023.github.io/) and will present our paper ``Revisiting Korean Corpus Studies through  Technological Advances". If you visit PolyU@HK 3 Dec., please drop by!
+
 ### NLP-OSS @ EMNLP 2020
 
 We will be in the [live session](https://virtual.2020.emnlp.org/workshop_WS-9.html) and monitoring the [slide chat](https://emnlp2020.rocket.chat/channel/paper-nlposs-17) during EMNLP 2020. If you have any questions or would simply want to drop by to say hello, please drop by!
@@ -29,26 +33,27 @@ Our work focuses on curating open Korean corpora under the following criteria:
 
 #### Documentation and License
 For documentation status *Docu.* the following holds.
-- **doc** - Does the corpus have any documentation on the usage?
-- **art** - Does the corpus have a related article?
-- **inter** - Does the corpus have a internationally available publication?
+- **docu** - Does the corpus have any documentation on the usage?
+- **paper** - Does the corpus have a related article?
+- **int'l** - Does the corpus have a internationally available publication?
 
 #### License
 For *License*, we check the followings:
-- Commercially available (**com**), academic use only (**acad**), unknown (**unk**)
-- Redistribution is available with/without modification (**rd** and **rd/mod-x**), neither (**no**), unknown (**unk**)
+- Commercially available (**all**), academic use only (**academic**), unknown (**unk**)
+- Redistribution is available with/without modification (rd/no for **rd** and binary for **mod-x**), unknown (**unk**)
 
 #### Other Attributes
+- In *Typical Usage*, we note the area of intended use of the dataset.
 - In *Providers*, we note if the dataset is provided by universities or institutes (Academia), companies or the research group thereof (Industry), or something combined, as Competition purpose.
 - In *Volume*, (w) denotes words, (s) denotes sentences, (p) denotes pairs (either document or sentence pairs), (d) denotes dialogues, (h) denotes hours, and (u) denotes speech utterances.
 - In *Goal*, Eval is noted if the purpose is suggested as an evaluation.
+- In *Lang*, we note all the languages that the dataset handles.
 
 #### View at a Glance
 The table below describes the open Korean corpora investigated so far. To be updated along with our survey or PR. You can visit [Here](https://github.com/songys/AwesomeKorean_Data) for the Korean description, and more information regarding government-driven database.
 
 
-
-1. Benchmark studies
+1. *Benchmark studies*
 
 | No | Dataset | Typical Usage | Provider | Docu. | License | Redist. | mod-x | Volume | Goal | Lang. |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -56,11 +61,12 @@ The table below describes the open Korean corpora investigated so far. To be upd
 | BM-2 | KoBEST | Benchmark studies | Industry | int'l | all | rd | 0 | BoolQ - 6K (p), COPA - 5K (s), KB-WiC - 6K (s), KB-HellaSwag - 3K (p & s), SentiNeg - 4K (s) | Eval | ko |
 
 
-2. Parsing and tagging   
+2. *Parsing and tagging*
 
-| PT-1 | KAIST Morpho-Syntactically Annotated Corpus | Morphological analysis | Academia | paper | academic | no | 0 | 70M (w) | - | ko |
+| No | Dataset | Typical Usage | Provider | Docu. | License | Redist. | mod-x | Volume | Goal | Lang. |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| PT-2 | OpenKorPOS | Morphological analysis | Academia | int'l | all | rd | 0 | 55M(w) | - | ko |
+| PT-1 | KAIST Morpho-Syntactically Annotated Corpus | Morphological analysis | Academia | paper | academic | no | 0 | 70M (w) | - | ko |
+| PT-2 | OpenKorPOS | Morphological analysis | Academia | int'l | all | rd | 0 | 55M (w) | - | ko |
 | PT-3 | KAIST Korean Tree-Tagging Corpus | Tree parsing | Academia | int'l | academic | no | 0 | 30K (s) | - | ko |
 | PT-4 | UD Korean KAIST | Dependency parsing | Academia | int'l | academic | no | 1 | 27K (s) | - | ko |
 | PT-5 | PKT-UD | Dependency parsing | Academia | int'l | academic | no | 0 | 5K (s) | - | ko |
@@ -70,7 +76,7 @@ The table below describes the open Korean corpora investigated so far. To be upd
 | PT-9 | KoNEC & KoNNEC | NER | Academia | docu | academic | no | 0 | 26K(s) | - | ko |
 
 
-3. Entailment, sentence similarity, and paraphrase
+3. *Entailment, sentence similarity, and paraphrase*
 
 | No | Dataset | Typical Usage | Provider | Docu. | License | Redist. | mod-x | Volume | Goal | Lang. |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -82,7 +88,7 @@ The table below describes the open Korean corpora investigated so far. To be upd
 | ESP-6 | Korean Smile Style Dataset | Paraphrase detection | Industry | docu | academic | rd | 0 | 2,5K(d) | - | ko |
 
 
-4. Intention understanding, sentiment analysis, and offensive language detection
+4. *Intention understanding, sentiment analysis, and offensive language detection*
 
 | No | Dataset | Typical Usage | Provider | Docu. | License | Redist. | mod-x | Volume | Goal | Lang. |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -99,18 +105,18 @@ The table below describes the open Korean corpora investigated so far. To be upd
 | ISO-11 | DKTC | Hate speech detection | Industry | docu | academic | rd | 0 | 1.5K | - | ko |
 
 
-5. QA and dialogue
+5. *QA and dialogue*
 
 | No | Dataset | Typical Usage | Provider | Docu. | License | Redist. | mod-x | Volume | Goal | Lang. |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | QAD-1 | KorQuAD 1.0 | QA | Industry | int'l | all | rd | 1 | 60K / 5K / 4K (p) | - | ko |
 | QAD-2 | KorQuAD 2.0 | QA | Industry | paper | all | rd | 1 | 80K / 10K / 10K (p) | - | ko |
-| QAD-3 | HuLiC | Dialog | Industry | docu | academic | rd | 0 | 115K |  | ko |
-| QAD-4 | OPELA | Dialog | Industry | int'l | academic | rd | 0 | 560K (d) |  | ko |
+| QAD-3 | HuLiC | Dialog | Industry | docu | academic | rd | 0 | 115K | - | ko |
+| QAD-4 | OPELA | Dialog | Industry | int'l | academic | rd | 0 | 560K (d) | - | ko |
 | QAD-5 | CareCall | Dialog | Industry | int'l | academic | rd | 0 | 10K | - | ko |
 
 
-6. Summarization, Translation, and Transliteration
+6. *Summarization, Translation, and Transliteration*
 
 | No | Dataset | Typical Usage | Provider | Docu. | License | Redist. | mod-x | Volume | Goal | Lang. |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -123,7 +129,7 @@ The table below describes the open Korean corpora investigated so far. To be upd
 | STT-7 | KAIST Transliteration Evaluation Set | Transliteration | Academia | docu | academic | no | 0 | 7K (p) | Eval | ko, en |
 
 
-7. Korean in multilingual corpora
+7. *Korean in multilingual corpora*
 
 | No | Dataset | Typical Usage | Provider | Docu. | License | Redist. | mod-x | Volume | Goal | Lang. |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -136,7 +142,7 @@ The table below describes the open Korean corpora investigated so far. To be upd
 | KM-7 | IWSLT 2023 | MT | Competition | int'l | all | rd | 0 | 3K (p) | - | ko, en, vi, pt, ru |
 
 
-8. Speech corpora
+8. *Speech corpora*
 
 | No | Dataset | Typical Usage | Provider | Docu. | License | Redist. | mod-x | Volume | Goal | Lang. |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -149,7 +155,7 @@ The table below describes the open Korean corpora investigated so far. To be upd
 | SL-7 | jejueo (JSS & JIT) | Other topics | Industry | int'l | all | rd | 0 | 10K (JSS), 170K (JIT) | - | ko |
 
 
-9. Other topics
+9. *Other topics*
 
 | No | Dataset | Typical Usage | Provider | Docu. | License | Redist. | mod-x | Volume | Goal | Lang. |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -160,8 +166,7 @@ The table below describes the open Korean corpora investigated so far. To be upd
 | ETC-5 | Korean Ambiguity Data | Other topics | Academia | int'l | all | rd | 0 | 35K | - | ko |
 | ETC-6 | Korean GEC dataset | Other topics | Academia | int'l | academic | rd | 0 | 155K(s pair) | - | ko |
 
-
-### Citing
+### Citation
 
 To cite our work, please use the following: (Also available as `cho-etal-2020-open` in anthology.bib)
 
