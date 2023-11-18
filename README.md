@@ -53,7 +53,7 @@ The table below describes the open Korean corpora investigated so far. To be upd
 | No | Dataset | Typical Usage | Provider | Docu. | License | Redist. | mod-x | Volume | Goal | Lang. |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | BM-1 | KLUE | Benchmark studies | Industry | int'l | all | rd | 0 | DP - 15K (s), DST - 10K (d), MRC - 29K (p), NER - 31K (s), NLI - 30K (p), RE - 48K (s), STS - 13K (p), TC - 64K (s)   | Eval | ko |
-| BM-1 | KoBEST | Benchmark studies | Industry | int'l | all | rd | 0 | BoolQ - 6K (p), COPA - 5K (s), KB-WiC - 6K (s), KB-HellaSwag - 3K (p & s), SentiNeg - 4K (s) | Eval | ko |
+| BM-2 | KoBEST | Benchmark studies | Industry | int'l | all | rd | 0 | BoolQ - 6K (p), COPA - 5K (s), KB-WiC - 6K (s), KB-HellaSwag - 3K (p & s), SentiNeg - 4K (s) | Eval | ko |
 
 
 2. Parsing and tagging   
