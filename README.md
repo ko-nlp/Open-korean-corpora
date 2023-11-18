@@ -12,7 +12,7 @@
 
 ### PACLIC 2023
 
-We will participate in [PACLIC 37](https://paclic2023.github.io/) and will present our paper ``Revisiting Korean Corpus Studies through  Technological Advances". If you visit PolyU@HK 3 Dec., please drop by!
+We will participate in [PACLIC 37](https://paclic2023.github.io/) and will present our paper "**Revisiting Korean Corpus Studies through  Technological Advances**". If you visit PolyU@HK 3 December, please drop by!
 
 ### NLP-OSS @ EMNLP 2020
 
@@ -57,8 +57,8 @@ The table below describes the open Korean corpora investigated so far. To be upd
 
 | No | Dataset | Typical Usage | Provider | Docu. | License | Redist. | mod-x | Volume | Goal | Lang. |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| BM-1 | KLUE | Benchmark studies | Industry | int'l | all | rd | 0 | DP - 15K (s), DST - 10K (d), MRC - 29K (p), NER - 31K (s), NLI - 30K (p), RE - 48K (s), STS - 13K (p), TC - 64K (s)   | Eval | ko |
-| BM-2 | KoBEST | Benchmark studies | Industry | int'l | all | rd | 0 | BoolQ - 6K (p), COPA - 5K (s), KB-WiC - 6K (s), KB-HellaSwag - 3K (p & s), SentiNeg - 4K (s) | Eval | ko |
+| BM-1 | [KLUE](https://klue-benchmark.com/) | Benchmark studies | Industry | int'l | all | rd | 0 | DP - 15K (s), DST - 10K (d), MRC - 29K (p), NER - 31K (s), NLI - 30K (p), RE - 48K (s), STS - 13K (p), TC - 64K (s)   | Eval | ko |
+| BM-2 | [KoBEST](https://huggingface.co/datasets/skt/kobest_v1) | Benchmark studies | Industry | int'l | all | rd | 0 | BoolQ - 6K (p), COPA - 5K (s), KB-WiC - 6K (s), KB-HellaSwag - 3K (p & s), SentiNeg - 4K (s) | Eval | ko |
 
 
 2. *Parsing and tagging*
