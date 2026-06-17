@@ -217,7 +217,7 @@ We removed the hyperlink for pages not working.
 
 ### Citation
 
-To cite our work, please use the following: (Also available as `cho-etal-2020-open` in anthology.bib)
+To cite our work, please use the following. Use the ACL Anthology version, or the [arXiv version](https://arxiv.org/abs/2012.15621) (v3, revised in Jun. 2026, reflecting this third edition).
 
     @inproceedings{cho-etal-2020-open,
         title = "Open {K}orean Corpora: A Practical Report",
@@ -232,6 +232,15 @@ To cite our work, please use the following: (Also available as `cho-etal-2020-op
         url = "https://www.aclweb.org/anthology/2020.nlposs-1.12",
         pages = "85--93",
         abstract = "Korean is often referred to as a low-resource language in the research community. While this claim is partially true, it is also because the availability of resources is inadequately advertised and curated. This work curates and reviews a list of Korean corpora, first describing institution-level resource development, then further iterate through a list of current open datasets for different types of tasks. We then propose a direction on how open-source dataset construction and releases should be done for less-resourced languages to promote research.",
+    }
+
+    @article{cho2026open,
+        title = "Open {K}orean Corpora: A Practical Report",
+        author = "Cho, Won Ik and Moon, Sangwhan and Song, Youngsook",
+        journal = "arXiv preprint arXiv:2012.15621",
+        year = "2026",
+        note = "v3, revised 9 Jun. 2026",
+        url = "https://arxiv.org/abs/2012.15621",
     }
 
 ### Contributing
