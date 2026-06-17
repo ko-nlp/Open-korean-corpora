@@ -21,4 +21,4 @@ This release reflects the updated survey manuscript (TALLIP submission). Highlig
 - **Other topics**: KorMedMCQA, KBMC, ESG-Kor, KBL, FunctionChat-Bench, KCL, KorMedLawQA.
 
 ### Maintenance
-- Refreshed broken/moved links, corrected volume figures (e.g. NSMC, Sci-news-sum-kr), fixed publication years, and merged closely related entries (KorQuAD 1.0/2.0, KorNLI/KorSTS, AIR NER/SRL).
+- Refreshed broken/moved links (e.g. OpenKorPOS, KSS, MultiCoNER), corrected volume figures (e.g. NSMC, Sci-news-sum-kr), fixed publication years, and merged closely related entries (KorQuAD 1.0/2.0, KorNLI/KorSTS, AIR NER/SRL).
