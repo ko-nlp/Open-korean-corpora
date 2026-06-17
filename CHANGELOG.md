@@ -11,9 +11,9 @@ This release reflects the updated survey manuscript (TALLIP submission). Highlig
 
 ### Newly added datasets (mostly 2023–2025)
 - **Benchmark studies**: Open-Ko-LLM, HAE-RAE Bench, KMMLU, KULTURE Bench, KMMLU-Redux/Pro, KoBALT.
-- **Intention and sentiment**: KMRE, ToM-Diary, KEmoFact, KPC-cF, KoCoSa, KOTE, CARBD-Ko, KPoEM.
+- **Intention and sentiment**: KMRE, ToM-Diary, KoCoSa, KOTE, KPoEM.
 - **Offensive language, fairness and bias** (new category): KoMultiText, K-HATERS, KoSBi, SQuARe, KoBBQ, KCDD, LifeTox (alongside existing BEEP!, APEACH, Unsmile, HateScore, KOLD, K-MHaS, DKTC, KODOLI).
-- **Entailment / similarity / paraphrase**: Korean PPDB, KoSEnd.
+- **Entailment / similarity / paraphrase**: KoSEnd.
 - **QA and dialogue**: KorWikiTQ, CLIcK, KoDialogBench, KorNAT, K-MMBench, K-Viscuit, KoSimpleQA, KoPIQA.
 - **Summarization, translation, transliteration**: OPUS-MT ko-en, Naver News Summary, KoreaScience Summary, SSL (sign language), KPC, KNOTICED.
 - **Korean in multilingual corpora**: XL-Sum, MASSIVE.

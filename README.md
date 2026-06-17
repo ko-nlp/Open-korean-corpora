@@ -16,7 +16,7 @@ We will participate in [PACLIC 37](https://paclic2023.github.io/) and will prese
 
 ### NLP-OSS @ EMNLP 2020
 
-We will be in the [live session](https://virtual.2020.emnlp.org/workshop_WS-9.html) and monitoring the [slide chat](https://emnlp2020.rocket.chat/channel/paper-nlposs-17) during EMNLP 2020. If you have any questions or would simply want to drop by to say hello, please drop by!
+We will be in the [live session](https://virtual.2020.emnlp.org/workshop_WS-9.html) during EMNLP 2020. If you have any questions or would simply want to drop by to say hello, please drop by!
 
 ### Public Institutions
 Multiple government-funded institutions create datasets for the Korean language
@@ -87,12 +87,11 @@ We removed the hyperlink for pages not working.
 | No | Dataset | Typical Usage | Provider | Docu. | License | Redist. | mod-x | Volume | Goal | Lang. | Year |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | ESP-1 | [Question Pair](https://github.com/songys/Question_pair) | Paraphrase detection | Academia | dom. | all | rd | 0 | 10K (p) | - | ko | 2018 |
-| ESP-2 | Korean PPDB | Paraphrase database | Academia | int'l | unk | unk | 0 | - | - | ko, ja | 2019 |
-| ESP-3 | [KorNLI/KorSTS](https://github.com/kakaobrain/KorNLUDatasets) | NLI, STS | Industry | int'l | all | rd | 0 | KorNLI - 940K train (p), KorSTS - 5.7K train (p) | - | ko | 2020 |
-| ESP-4 | [ParaKQC](https://github.com/warnikchow/ParaKQC) | Paraphrase detection | Academia | int'l | all | rd | 0 | 540K (p) | - | ko | 2020 |
-| ESP-5 | [StyleKQC](https://github.com/cynthia/stylekqc) | Style transfer, paraphrase detection | Academia | int'l | all | rd | 0 | 30K (s) | - | ko | 2022 |
-| ESP-6 | [Korean Smile Style Dataset](https://github.com/smilegate-ai/korean_smile_style_dataset) | Style transfer | Industry | dom. | academic | rd | 0 | 2.5K (d) | - | ko | 2022 |
-| ESP-7 | [KoSEnd](https://github.com/seungukyu/KoSEnd) | Linguistic evaluation | Academia | int'l | academic | unk | 0 | - | Eval | ko | 2025 |
+| ESP-2 | [KorNLI/KorSTS](https://github.com/kakaobrain/KorNLUDatasets) | NLI, STS | Industry | int'l | all | rd | 0 | KorNLI - 940K train (p), KorSTS - 5.7K train (p) | - | ko | 2020 |
+| ESP-3 | [ParaKQC](https://github.com/warnikchow/ParaKQC) | Paraphrase detection | Academia | int'l | all | rd | 0 | 540K (p) | - | ko | 2020 |
+| ESP-4 | [StyleKQC](https://github.com/cynthia/stylekqc) | Style transfer, paraphrase detection | Academia | int'l | all | rd | 0 | 30K (s) | - | ko | 2022 |
+| ESP-5 | [Korean Smile Style Dataset](https://github.com/smilegate-ai/korean_smile_style_dataset) | Style transfer | Industry | dom. | academic | rd | 0 | 2.5K (d) | - | ko | 2022 |
+| ESP-6 | [KoSEnd](https://github.com/seungukyu/KoSEnd) | Linguistic evaluation | Academia | int'l | academic | unk | 0 | - | Eval | ko | 2025 |
 
 
 4. *Intention understanding and sentiment analysis*
@@ -104,12 +103,9 @@ We removed the hyperlink for pages not working.
 | IS-3 | [Kocasm](https://github.com/SpellOnYou/korean-sarcasm) | Sarcasm detection | Academia | dom. | all | rd | 0 | 9K (s) | - | ko | 2019 |
 | IS-4 | [KMRE](https://github.com/passing2961/KMRE) | Emotion classification | Academia | int'l | all | rd | 0 | - | - | ko | 2020 |
 | IS-5 | [ToM-Diary](https://github.com/humanfactorspsych/covid19-tom-empathy-diary) | Theory of mind analysis | Academia | dom. | academic | rd | 1 | 18K diaries, 74K (s) | - | ko | 2021 |
-| IS-6 | [KEmoFact](https://www.nature.com/articles/s41598-023-45992-8) | Emotion factor extraction | Academia | int'l | unk | unk | 0 | - | - | ko | 2023 |
-| IS-7 | [KPC-cF](https://anonymous.4open.science/r/KPC-cF-21E8) | Aspect-based sentiment classification | Academia | int'l | academic | rd | 0 | Kor-SemEval, KR3 | - | ko | 2024 |
-| IS-8 | [KoCoSa](https://github.com/Yu-billie/KoCoSa_sarcasm_detection) | Sarcasm detection | Academia | int'l | all | rd | 0 | 12.8K (d) | - | ko | 2024 |
-| IS-9 | [KOTE](https://github.com/searle-j/KOTE) | Emotion classification | Academia | int'l | academic | rd | 1 | 50K comments, 250K annotations | - | ko | 2024 |
-| IS-10 | [CARBD-Ko](https://arxiv.org/abs/2402.15046) | Aspect-based sentiment classification | Academia | int'l | academic | unk | 0 | - | Eval | ko | 2024 |
-| IS-11 | [KPoEM](https://github.com/AKS-DHLAB/KPoEM) | Emotion detection | Academia | int'l | all | rd | 0 | - | - | ko | 2025 |
+| IS-6 | [KoCoSa](https://github.com/Yu-billie/KoCoSa_sarcasm_detection) | Sarcasm detection | Academia | int'l | all | rd | 0 | 12.8K (d) | - | ko | 2024 |
+| IS-7 | [KOTE](https://github.com/searle-j/KOTE) | Emotion classification | Academia | int'l | academic | rd | 1 | 50K comments, 250K annotations | - | ko | 2024 |
+| IS-8 | [KPoEM](https://github.com/AKS-DHLAB/KPoEM) | Emotion detection | Academia | int'l | all | rd | 0 | - | - | ko | 2025 |
 
 
 5. *Offensive language detection, fairness and bias*
@@ -193,8 +189,8 @@ We removed the hyperlink for pages not working.
 | SL-5 | [ClovaCall](https://github.com/clovaai/ClovaCall) | ASR | Industry | int'l | academic | none | 0 | 80+ (h) | - | ko | 2020 |
 | SL-6 | [JIT/JSS](https://github.com/kakaobrain/jejueo) | ASR, TTS | Industry | int'l | all | rd | 0 | 10K (JSS), 170K (JIT) | - | ko | 2020 |
 | SL-7 | [kosp2e](https://github.com/warnikchow/kosp2e) | Speech translation | Academia | int'l | academic | rd | 0 | 30K (u) | - | ko, en | 2021 |
-| SL-8 | [OLKAVS](https://arxiv.org/abs/2301.06375) | Audio-visual speech recognition | Academia | int'l | all | rd | 0 | 1,150 (h) audio, 5,750 (h) video | - | ko | 2024 |
-| SL-9 | [KMSAV](https://onlinelibrary.wiley.com/doi/10.4218/etrij.2022-0487) | Audio-visual speech recognition | Academia | int'l | academic | rd | 1 | 150 (h) transcribed, 2,000+ (h) untranscribed | - | ko | 2024 |
+| SL-8 | [OLKAVS](https://github.com/IIP-Sogang/olkavs-avspeech) | Audio-visual speech recognition | Academia | int'l | all | rd | 0 | 1,150 (h) audio, 5,750 (h) video | - | ko | 2024 |
+| SL-9 | [KMSAV](https://github.com/etri/kmsav) | Audio-visual speech recognition | Academia | int'l | academic | rd | 1 | 150 (h) transcribed, 2,000+ (h) untranscribed | - | ko | 2024 |
 
 
 10. *Other topics*
@@ -208,8 +204,8 @@ We removed the hyperlink for pages not working.
 | ETC-5 | [Korean GEC dataset](https://github.com/soyoung97/standard_korean_gec) | GEC | Academia | int'l | academic | rd | 0 | 155K (s pair) | - | ko | 2022 |
 | ETC-6 | [Korean Ambiguity Dataset](https://github.com/bareun-nlp/korean-ambiguity-data) | Word sense disambiguation | Academia | int'l | all | rd | 0 | 35K (s), 8.2K surface forms | - | ko | 2023 |
 | ETC-7 | [KorMedMCQA](https://huggingface.co/datasets/sean0042/KorMedMCQA) | Medical QA | Academia | int'l | academic | rd | 1 | 7.5K questions | Eval | ko | 2024 |
-| ETC-8 | [KBMC](https://arxiv.org/abs/2403.16158) | Medical NER | Academia | int'l | academic | unk | 0 | - | - | ko | 2024 |
-| ETC-9 | [ESG-Kor](https://aclanthology.org/2024.findings-emnlp.387/) | ESG information extraction | Academia | int'l | academic | rd | 0 | 119K (s) | - | ko | 2024 |
+| ETC-8 | [KBMC](https://huggingface.co/datasets/SungJoo/KBMC) | Medical NER | Academia | int'l | all | rd | 0 | - | - | ko | 2024 |
+| ETC-9 | [ESG-Kor](https://github.com/nowzer0/ESG-Kor) | ESG information extraction | Academia | int'l | academic | rd | 0 | 119K (s) | - | ko | 2024 |
 | ETC-10 | [KBL](https://github.com/lbox-kr/kbl) | Legal language understanding | Academia | int'l | academic | rd | 0 | 3.3K exam examples, 150K precedents | Eval | ko | 2024 |
 | ETC-11 | [FunctionChat-Bench](https://github.com/kakao/FunctionChat-Bench) | Function calling benchmark | Industry | int'l | all | rd | 0 | - | Eval | ko | 2024 |
 | ETC-12 | [KCL](https://github.com/lbox-kr/kcl) | Legal reasoning | Academia | int'l | academic | rd | 1 | 283 MCQA, 169 essay questions | Eval | ko | 2025 |
